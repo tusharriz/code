@@ -1,9 +1,10 @@
-`Check if Ram Passed the exam or not?
+`Check whether Ram marks are enough to pass where the passing mark is 35.
+
 true ==> YES
-false ==> NO`
+false ==> NO
+`
+let ramMarks = 36;
+let passingMarks=35;
 
-let ram_marks=25;
-
-let passing_marks=35;
-
-console.log(ram_marks>passing_marks);// false
+let ramIsPassed = ramMarks > passingMarks;
+console.log("Ram is Passed =", ramIsPassed); // true
