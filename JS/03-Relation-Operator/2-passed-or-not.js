@@ -1,4 +1,4 @@
-`Check whether Ram marks are enough to pass where the passing mark is 35.
+`Check whether Ram marks are enough to pass where the passing mark is 35 using the > operator.
 
 true ==> YES
 false ==> NO
