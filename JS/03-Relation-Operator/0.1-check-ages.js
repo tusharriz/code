@@ -4,4 +4,4 @@ let ageOfRam = 26;
 let ageOfMohan = 36;
 
 let isRamOlder = ageOfRam > ageOfMohan;
-console.log("Is Ram older than Mohan =", isRamOlder); //false
+console.log("Is Ram older than Mohan =", isRamOlder); //false`
