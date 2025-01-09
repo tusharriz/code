@@ -14,3 +14,4 @@ console.log(a && b); // false
 a = false;
 b = false;
 console.log(a && b); // false
+
