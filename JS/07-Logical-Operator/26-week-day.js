@@ -27,11 +27,11 @@ switch(num){
           break;
   case 4: console.log("Thursday");
           break;
-  case 4: console.log("Friday"); 
+  case 5: console.log("Friday"); 
           break;
-  case 4: console.log("Saturday"); 
+  case 6: console.log("Saturday"); 
           break;
-  case 4: console.log("Sunday"); 
+  case 7: console.log("Sunday"); 
           break;
   default: console.log("Wrong Input");
 }
