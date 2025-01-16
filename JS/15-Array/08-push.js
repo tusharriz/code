@@ -10,5 +10,5 @@ console.log(veg.length);
 veg.push("Carrot");
 console.log(veg);
 console.log(veg.length);
-
-
+veg.push(" ");
+console.log(veg);
