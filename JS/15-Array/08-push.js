@@ -12,3 +12,7 @@ console.log(veg);
 console.log(veg.length);
 veg.push(" ");
 console.log(veg);
+
+// NOTE : hum push sirf array mei hi kr skte hai, chahe empty array ho ya already elements present ho array mei.
+
+// string mei kbhi push nahi kr skte because push array ka method hai toh array ke saat hi work karega
