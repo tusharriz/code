@@ -11,9 +11,9 @@ for(let i=0; i<=arr.length-1; i++){
         firstMax = arr[i];
     }   
 }
+
 console.log(firstMax); // 7
 console.log(secondMax); // 6
-
 
 
 
