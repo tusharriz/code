@@ -2,4 +2,4 @@
 
 let object = {
     key : "value"
-}
+};
