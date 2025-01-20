@@ -15,6 +15,7 @@ function mapChar(N) {
     }
 }
 
+
 mapChar(5);
 
 // a-1
