@@ -13,7 +13,7 @@ let obj = {
     gender : "male",
     city : "Delhi",
     hobbies : "coding"
-}
+};
 
 console.log(obj["name"]); // Ram
 console.log(obj["age"]); // 26
