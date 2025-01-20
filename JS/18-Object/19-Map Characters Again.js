@@ -15,7 +15,7 @@ function mapCharAgain(N) {
     }
     
 }
-mapCharAgain(1);
+mapCharAgain(30);
 
 // a-30
 // b-31
