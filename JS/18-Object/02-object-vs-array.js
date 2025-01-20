@@ -15,4 +15,8 @@ let obj = {
     hobbies : "coding"
 }
 
+console.log(obj["name"]); // Ram
+console.log(obj["age"]); // 26
+console.log(obj["gender"]); // male
 console.log(obj["city"]); // Delhi
+console.log(obj["hobbies"]); // coding
