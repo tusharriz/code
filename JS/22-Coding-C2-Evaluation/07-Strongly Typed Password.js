@@ -88,3 +88,23 @@ function strongPassword(arr) {
 strongPassword(["test123", "new@t", "mon*y", "nrupul"]);
 
 // weak strong strong weak
+
+function patternPrinting(N) {
+  for (let i = 0; i < N; i++) {
+      let row = "";
+
+      // Print decreasing stars with '_'
+      for (let j = 0; j < N - i; j++) {
+          row = row + "*" + " ";
+      }
+
+      // Add increasing spaces
+      for (let k = 0; k < i; k++) {
+          row += " ";
+      }
+
+      // Remove last underscore and print row
+      console.log(row);
+  }
+}
+patternPrinting(5);
