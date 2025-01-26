@@ -8,6 +8,7 @@ function checkChar(char){
     for(let i=0; i<=smallChar.length-1; i++){
         if(smallChar[i] === char){
             flag = true;
+            break;
         }
     }
 
