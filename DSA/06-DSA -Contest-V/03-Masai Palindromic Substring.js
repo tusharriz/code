@@ -33,3 +33,4 @@ function masaiPalSubString(S){
     console.log(max);
 }
 masaiPalSubString("thisracecarisgood") // 7
+
