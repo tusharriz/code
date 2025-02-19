@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+.parent{
+    width: 90%;
+    height: 430px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+}
+
+.child{
+    width: 32%;
+    height: 95%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    border: 1px solid rgb(230, 229, 229);
+    background-color: white;
+}
+
+.child img{
+    width: 100%;
+}
+
+.child h4{
+    margin-bottom: 8px;
+}
+
+.child p{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.child button{
+    border: none;
+    padding: 5px 15px;
+    background-color: #81d4fa;
+    font-size: 10px;
+}
