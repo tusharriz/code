@@ -1,0 +1,39 @@
+body{
+    background-color: #f3f3f3;
+}
+.parent{
+    width: 93%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+
+.child{
+    width: 31%;
+    height: 90%;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+
+.child img{
+    width: 100%;
+}
+
+.child p{
+    color: #76726e;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.child h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+
+.child h5{
+    text-decoration: underline;
+    cursor: pointer;
+}
