@@ -3,15 +3,16 @@ body{
 }
 .parent{
     width: 90%;
-    height: 200px;
+    height: 230px;
     /* border: 1px solid red; */
     margin: auto;
     display: flex;
     font-family: sans-serif;
+    /* margin-bottom: 10px; */
 }
 
 .child{
-    width: 24%;
+    width: 23%;
     height: 90%;
     /* border: 1px solid red; */
     margin: auto;
@@ -34,9 +35,11 @@ body{
     color: white;
     cursor: pointer;
 }
+
 .partition{
     display: flex;
 }
+
 .child p{
     font-size: 9px;
     margin-top: 1px;
