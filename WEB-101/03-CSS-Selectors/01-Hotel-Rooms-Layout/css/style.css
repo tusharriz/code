@@ -1,0 +1,41 @@
+h1{
+    font-size: 60px;
+    color: #c78b36;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.des{
+    /* border: 1px solid red; */
+    width: 51%;
+    text-align: center;
+    margin: auto;
+    line-height: 25px;
+}
+
+#container{
+    width: 75%;
+    height: 330px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 31%;
+    height: 95%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.card p{
+    color: #ffba5a;
+}
