@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
+
+h1{
+    width: 35%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    width: 41%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: #676767;
+    line-height: 1.3;
+}
+
+.cards{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.cards > div{
+    width: 29%;
+    height: 330px;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.cards > div > h3{
+    margin-top: 30px;
+    /* font-size: 2px; */
+    font-weight: 600;
+}
+
+.green{
+    color: green;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+}
+
+.orange{
+    color: #FFA502;
+    margin-bottom: 5px;
+}
+
+.blue{
+    color: #0d0dcd;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.cards > div > p:nth-child(3){
+    font-style: italic;
+    color: black;
+    font-size: 13px;
+    margin-top: 1px;
+    /* border: 1px solid red; */
+}
+
+.cards > div > p:nth-child(4){
+    color: black;
+    /* border: 1px solid red; */
+    width: 75%;
+    margin-bottom: 35px;
+}
+
+.cards > div > button{
+    width: 140px;
+    height: 45px;
+    border: 1px solid #0d0dcd;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1c1cce;
+    background: transparent;
+    cursor: pointer;
+}
+
+.cards > div > button:hover{
+    background-color: #0d0dcd;
+    color: white;
+}
