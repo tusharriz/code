@@ -1,0 +1,65 @@
+.paw{
+    width: 110px;
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+h1{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+p{
+    /* border: 1px solid red; */
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    color: #808080;
+    line-height: 1.5;
+}
+
+.cards{
+    width: 85%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards>div{
+    width: 32%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.cards>div>img{
+    width: 25%;
+}
+
+.cards>div>img+p:nth-child(2){
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+    color: black;
+    font-size: 18px;
+    /* border: 1px solid red; */
+}
+
+.cards>div>img~p:nth-child(3){
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: left;
+    margin-top: 13px;
+    font-size: 15px;
+}
