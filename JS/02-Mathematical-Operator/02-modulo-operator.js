@@ -1,4 +1,4 @@
-// This is a modulo operator "%"
+// This modulo operator "%" returns the remainder.
 
 let a = 10;
 let b = 2;
