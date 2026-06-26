@@ -22,3 +22,12 @@ console.log(a+c); //25
 //2. number + string => string (concatenated)
 //3. number + number => number (addition)
 
+// Strings can also be combined with other types like numbers .
+
+let num1 = 1;
+let num2 = 2;
+let output = "1 + 2 = " + (num1 + num2);
+
+console.log(output); // 1 + 2 = 3
+
+// Note: Notice the circular brackets between num1 + num2 this tells javascript that we want to add the two numbers mathematically. Without the brackets the output would be 1 + 2 = 12.
