@@ -23,3 +23,14 @@ console.log(10%2); // 0
 console.log(2%10); // 2 ==>  10|2|0
 //                              0
 //                              2  ==> 2 is remainder
+
+
+// This modulo operator is often useful when you want to check if a number is odd or even.
+
+let x = 10 % 2;
+let y = 11 % 2;
+
+console.log(x); // 0
+console.log(y); // 1
+
+// any even number %2 returns 0 while any odd number %2 returns 1.
