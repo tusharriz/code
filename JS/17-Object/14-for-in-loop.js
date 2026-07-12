@@ -75,4 +75,3 @@ for (let i in obj) {
 //   city: 'Delhi',
 //   hobbies: 'coding'
 // }
-
