@@ -31,3 +31,22 @@ let arr = [
   },
 ];
 
+for(let i=0; i<=arr.length-1; i++){
+  let marks1 = arr[i]["students"][0]["marks"];
+  let marks2 = arr[i]["students"][1]["marks"];
+
+  let total1 = 0;
+  let total2 = 0;
+
+  for(let j=0; j<=marks1.length-1; j++){
+    total1 += marks1[j];
+    total2 += marks2[j];
+  }
+
+  if(total1 > total2){
+    console.log(arr[i]["grade"]+"-"+arr[i]["students"][0]["name"]+"-"+total1);
+  }else{
+    console.log(arr[i]["grade"]+"-"+arr[i]["students"][1]["name"]+"-"+total2);
+  }
+
+}
