@@ -1,0 +1,1 @@
+https://bookmyshow-basic-layout.netlify.app/
