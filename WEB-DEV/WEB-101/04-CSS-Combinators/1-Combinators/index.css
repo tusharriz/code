@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading > h1{
+    color: teal;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    /* border: 1px solid red; */
+}
+
+.heading > p{
+    font-size: 12px;
+}
+#team-members{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    
+}
+
+#team-members > div{
+    width: 23%;
+    height: 95%;
+    /* border: 1px solid green; */
+    /* margin: auto; */
+    text-align: center;
+    padding-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#team-members > div > img{
+    width: 100%;
+}
+
+#team-members > div > h2{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+#team-members > div > h2 + p{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+/* <!-- Medium-section --> */
+
+#team-stats{
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+#team-stats > div{
+    width: 13%;
+    height: 95%;
+    /* border: 1px solid red; */
+    /* margin: auto; */
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+#team-stats > div > h1{
+    font-size: 18px;
+}
+
+#team-stats > div > p{
+    font-size: 11px;
+}
+
+/* <!-- bottom-section --> */
+
+#cards{
+    width: 90%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#cards > div{
+    width: 30%;
+    height: 95%;
+    /* border: 1px solid green; */
+    /* margin: auto; */
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+#cards > div > img{
+    width: 15%;
+    
+}
+
+#cards > div > h2{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cards > div > p{
+    font-size: 10px;
+}
