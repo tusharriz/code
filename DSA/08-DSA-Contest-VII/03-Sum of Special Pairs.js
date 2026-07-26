@@ -27,3 +27,33 @@ function sumOfSpecialPairs(A) {
   console.log(sum);
 }
 sumOfSpecialPairs([1, 2, 3, 5, 7, 12]); // 45
+
+
+let arr = [1, 2, 3, 5, 7, 12];
+
+let sum = 0;
+for(let i=0; i<=arr.length-1; i++){
+  for(let j=i+1; j<=arr.length-1; j++){
+    if(i<j && cPrime(j-i)){
+      sum = sum + Math.abs(arr[i] - arr[j]); // 45
+    }
+  }
+}
+console.log(sum);
+
+function cPrime(num){
+  if(num<2){
+    return false;
+  }
+  let count = 0;
+  for(let i=1; i<=num; i++){
+    if(num%i==0){
+      count++;
+    }
+  }
+  if(count==2){
+    return true;
+  }else{
+    return false;
+  } 
+}
