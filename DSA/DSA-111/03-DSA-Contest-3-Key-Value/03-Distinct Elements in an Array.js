@@ -23,5 +23,26 @@ function distinctElements(n, arr){
 
 }
 
-distinctElements(8,[1, 1, 5, 2, 6, 6, 3, 5]); // 2
+// distinctElements(8,[1, 1, 5, 2, 6, 6, 3, 5]); // 2
 
+
+let arr = [1, 1, 5, 2, 6, 6, 3, 5];
+let obj = {};
+
+for(let ele of arr){
+	if(obj[ele] == undefined){
+		obj[ele] = 1;
+	}else{
+		obj[ele]++;
+	}
+}
+// console.log(obj); // { '1': 2, '2': 1, '3': 1, '5': 2, '6': 2 }
+
+let count = 0;
+
+for(let key in obj){
+	if(obj[key] == 1){
+		count++;
+	}
+}
+console.log(count); // 2
