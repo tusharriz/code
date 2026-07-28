@@ -87,3 +87,36 @@ for(let i=0; i<=arr.length-1; i++){
 }
 console.log(bag); // Nrupul Yogesh
 }
+
+// OR
+
+{
+
+let namesArr =  ["Ram", "Shayam", "Hari", "Om", "Jai"]
+let ageArr = [32, 30, 26, 28, 44];
+
+let arr = [];
+
+for(let i=0; i<=namesArr.length-1; i++){
+    let name = namesArr[i];
+    let age = ageArr[i];
+
+    let obj = {name,age};
+    arr.push(obj);
+}
+console.log(arr);
+
+// [
+//   { name: 'Ram', age: 32 },
+//   { name: 'Shayam', age: 30 },
+//   { name: 'Hari', age: 26 },
+//   { name: 'Om', age: 28 },
+//   { name: 'Jai', age: 44 }
+// ]
+
+
+
+
+
+
+}
