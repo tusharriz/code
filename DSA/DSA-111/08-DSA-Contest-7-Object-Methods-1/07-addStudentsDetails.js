@@ -2,13 +2,24 @@
 
 let db = {
     students : [],
-
     addStudent : function(name, age, id, htmlMarks, cssMarks, jsMarks){
-
         let obj = {name, age, id, htmlMarks, cssMarks, jsMarks};
-
         this.students.push(obj);
-    }
+    },
+    findMaxAge : function(){
+        let arr = this.students;
+        let max = -Infinity;
+        let ans;
+        for(let i=0; i<=arr.length-1; i++){
+            let sage = arr[i]["age"];
+            if(sage > max){
+                max = sage;
+                ans = arr[i]["name"]
+            }
+        }
+        console.log(max);
+        console.log(ans);
+    },
 }
 
 db["addStudent"]("Baman",26,"st234",87,90,83);
@@ -16,7 +27,9 @@ db["addStudent"]("Jaman",27,"st244",84,95,84);
 db["addStudent"]("Naman",25,"st237",82,40,85);
 db["addStudent"]("Aaman",23,"st233",80,60,63);
 
-console.log(db["students"]);
+db["findMaxAge"](); //27
+db["addStudent"]("Gaman", 28, "st235", 81, 62, 66);
+db["findMaxAge"](); //28
 
 // [
 //   {
