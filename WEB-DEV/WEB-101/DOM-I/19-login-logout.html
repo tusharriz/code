@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Logout</title>
+    <style>
+        body {
+            background-color: rgb(47, 48, 48);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head1">Click on login to continue</h1>
+    <button onclick="loginBtn()">Login</button>
+    <button onclick="logoutBtn()">logout</button>
+</body>
+</html>
+
+<script>
+    function loginBtn(){
+        alert("Successfull Login");
+        document.getElementById("head1").innerHTML = "Hello World";
+    }
+
+    function logoutBtn(){
+        alert("Successfull Logout")
+        document.getElementById("head1").innerHTML = "Click on login to continue"
+    }
+</script>
