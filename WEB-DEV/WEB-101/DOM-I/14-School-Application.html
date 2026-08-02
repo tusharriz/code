@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Design an application such that when user clicks on Apply button,
+     he or she should take entered values from both input and select tags and display it in h2 tag with id "display" -->
+
+    <h1>School Application</h1>
+    <p>Enter Your name and gender to apply for school</p>
+    <h2 id="display">Display entered name and gender here</h2>
+    <hr>
+
+    <input id="name" type="text" placeholder="Enter your name">
+
+    <select id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+
+    <button onclick="applyBtn()">Apply</button>
+</body>
+</html>
+
+<script>
+    function applyBtn(){
+
+        // console.log("check!");
+
+        let nameValue = document.getElementById("name").value;
+        // console.log(nameValue);
+
+        let genderValue = document.getElementById("gender").value;
+        // console.log(genderValue);
+
+        document.getElementById("display").innerText = nameValue +" "+ genderValue;
+    }
+</script>
