@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(47, 48, 48);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- // user welcome logic -->
+    <!-- <h1 id="head1">Welcome to the World</h1>
+    <input id="name" type="text" placeholder="Enter your name" value="">
+    <button onclick="submitBtn()">Submit</button> -->
+
+    <!-- check-age-for-licence -->
+    <!-- <h1 id="head1">Enter your age</h1>
+    <input id="age" type="number" placeholder="Enter your age" value="">
+    <button onclick="submitBtn()">Check Eligibility</button> -->
+
+    <h1>Please select any language.</h1>
+    <select id="selectedLanguage">
+        <option value="">Select Language</option>
+        <option value="Javascript">Javascript</option>
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="Java">Java</option>
+    </select>
+
+    <button onclick="selectBtn()">Select Language</button>
+
+    <p id="ptag"></p>
+</body>
+</html>
+
+<script>
+    // user welcome logic
+    // function submitBtn(){
+    //     let name = document.getElementById("name").value;
+    //     document.getElementById("head1").innerText = "Hello" + " "+ name + "," +"Welcome to the World!!";
+    // }
+
+    // check-age-for-licence
+    // function submitBtn(){
+    //     let userAge = document.getElementById("age").value; 
+
+    //     if(userAge == ""){
+    //         alert("Enter your age");
+    //         document.getElementById("age").value = "";
+    //     }else if(userAge >= 115){
+    //         alert("Enter your correct age");
+    //         document.getElementById("age").value = "";
+    //     }else if(userAge >= 18){
+    //         document.getElementById("head1").innerText = "You are Eligible for Driving Licence."
+    //         document.getElementById("age").value = "";
+    //     }else{
+    //         alert("You are not eligible for the licence")
+    //         document.getElementById("age").value = "";
+    //         document.getElementById("head1").innerText = "Enter your age"
+
+    //     }
+    // }
+
+    function selectBtn(){
+        let language = document.getElementById("selectedLanguage").value;
+        console.log(language);
+
+        document.getElementById("ptag").innerText =
+        "You are selected "+ `"` + language + `"` +" "+ "language.";
+    }
+
+
+</script>
