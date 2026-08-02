@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onClick Event</title>
+    <style>
+
+        body{
+            background-color: rgb(47, 48, 48);
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <button onclick="likeCount()">Like 👍</button>
+
+    <button onclick="subscribeBtn()">Subscribe</button>
+
+    <button onclick="turnOnNotification()">Turn on Notification 🔔</button>
+
+</body>
+</html>
+
+<script>
+    function likeCount(){
+        console.log("User liked my post");
+    }
+
+    function subscribeBtn(){
+        console.log("User subscribed our channel");
+    }
+
+    function turnOnNotification(){
+        console.log("User turned on the notification");
+    }
+</script>
