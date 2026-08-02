@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(47, 48, 48);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <p id="click">Click Count is : 0</p>
+
+    <button onclick="clickBtn()">Click Count</button>
+    <button onclick="resetBtn()">Reset</button>
+
+</body>
+</html>
+
+<script>
+    let count = 0;
+    function clickBtn(){
+        count  = count + 1;
+        
+        document.getElementById("click").innerText = "Click Count is :"+" "+count;
+
+        console.log(count)
+    }
+
+    function resetBtn(){
+        document.getElementById("click").innerText = "Click Count is : 0"
+        count = 0;
+    }
+</script>
