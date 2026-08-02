@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById</title>
+</head>
+<body>
+    <h1 id="heading1">This is a h1 heading</h1>
+
+    <p id="para">This is a para</p>
+
+    <h6 id="heading6">This is a h6 heading</h6>
+
+    <p id="para2">DOM is <i>AMAZING</i></p>
+
+
+</body>
+</html>
+
+<script>
+
+    console.log(document.getElementById("heading1"));
+
+    console.log(document.getElementById("para"));
+
+    console.log(document.getElementById("heading6"));
+
+    console.log(document.getElementById("para2"));
+
+
+    // getting innerText of the element
+
+    console.log(document.getElementById("heading1").innerText);
+
+    console.log(document.getElementById("para").innerText);
+
+    console.log(document.getElementById("heading6").innerText);
+
+    console.log(document.getElementById("para2").innerText);
+
+
+    //getting innerHTML
+
+    console.log(document.getElementById("para2").innerHTML);
+
+</script>
