@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculator</title>
+
+    <style>
+
+        body{
+            background-color: rgb(41, 42, 44);
+        }
+        
+        .container{
+            width: 60%;
+            height: 370px;
+            border: 2px dashed red;
+            margin: auto;
+            margin-top: 80px;
+            border-radius: 10px;
+            font-family: sans-serif
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .screen{
+            width: 85%;
+            height: 80px;
+            /* border: 1px solid red; */
+            margin: auto;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        input{
+            /* border: 1px solid red; */
+            height: 30px;
+            width: 250px;
+            border-radius: 6px;
+            padding-left: 20px;
+            color: black;
+            font-size: 20px;
+            border : none;
+        }
+
+        .buttonSection{
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid red; */
+            display: grid;
+            grid-template-columns: repeat(2, 30%);
+            grid-template-rows: repeat(2, 45px);
+            row-gap:30px;
+            column-gap: 40px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        button{
+            /* border: 1px solid red; */
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+        }
+
+        button:hover{
+            background-color: rgb(127, 178, 255);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Mini - Calculator</h1>
+
+        <div class="screen">
+            <input id="numberOne" type="number" placeholder="Enter 1st Number" value="">
+            <input id="numberTwo" type="number" placeholder="Enter 2nd Number" value="">
+        </div>
+
+        <div class="buttonSection">
+            <button onclick="add()">Add</button>
+            <button onclick="subtract()">Subtract</button>
+            <button onclick="multiply()">Multiply</button>
+            <button onclick="divide()">Divide</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<script>
+
+    function add(){
+        // console.log("check!")
+        let num1 = document.getElementById("numberOne").value;
+        let num2= document.getElementById("numberTwo").value;
+        alert((+num1) + (+num2));
+    }
+
+    function subtract(){
+        // console.log("check!")
+        let num1 = document.getElementById("numberOne").value;
+        let num2= document.getElementById("numberTwo").value;
+        alert((+num1) - (+num2));
+    }
+
+    function multiply(){
+        // console.log("check!")
+        let num1 = document.getElementById("numberOne").value;
+        let num2= document.getElementById("numberTwo").value;
+        alert((+num1) * (+num2));
+    }
+
+    function divide(){
+        // console.log("check!")
+        let num1 = document.getElementById("numberOne").value;
+        let num2= document.getElementById("numberTwo").value;
+        alert((+num1) / (+num2));
+    }
+
+</script>
