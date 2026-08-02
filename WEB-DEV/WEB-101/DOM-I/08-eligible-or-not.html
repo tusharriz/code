@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Enter your age</h1>
+    <input id="age" type="number" placeholder="Enter your age" value="">
+    <button onclick="chechEligiblty()">Check Eligibilty</button>
+    <p id="result"></p>
+</body>
+</html>
+
+<script>
+
+    function chechEligiblty(){
+        // console.log("check")
+
+        let userAge = document.getElementById("age").value;
+        // console.log(userAge);
+
+        if(userAge <= 100){
+            if(userAge >= 18){
+                document.getElementById("result").innerText = "You are eligible";
+            }else if(userAge < 18){
+                document.getElementById("result").innerText = "You are not eligible";
+            }
+        }else{
+             document.getElementById("result").innerText = "You are above 100, so you are not eligible for the ride!!";
+        }
+
+    }
+</script>
