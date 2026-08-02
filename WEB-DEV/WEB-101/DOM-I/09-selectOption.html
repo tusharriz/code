@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Select the language</h1>
+
+    <select id="language">
+        <option value="Javascript">Javascript</option>
+        <option value="Java">Java</option>
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="Python">Python</option>
+    </select>
+
+    <button onclick="selectLanguage()">Select Language</button>
+
+    <p id="result"></p>
+</body>
+</html>
+
+<script>
+
+    function selectLanguage(){
+        // console.log("check!!");
+
+        let select= document.getElementById("language").value;
+        // console.log(select);
+
+        document.getElementById("result").innerText = "You selected" +" "+ select +" "+ "Language";
+        
+    }
+</script>
