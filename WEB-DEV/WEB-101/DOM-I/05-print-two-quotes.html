@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Quotes</title>
+</head>
+<body>
+    <p id="quotes">Persistence is the key to success</p>
+
+    <button  onclick="quoteBtn()">Show Quote</button>
+</body>
+</html>
+
+<script>
+
+    let count = -1;
+    function quoteBtn(){
+
+        let arr = ["a", "b", "c"];
+        count++;
+
+        if(count !== arr.length){
+            document.getElementById("quotes").innerText = arr[count];
+        }else{
+            document.getElementById("quotes").innerText = "Today stock is finsh, Come back tommorow!!";
+            count = -1;
+        }
+        
+        console.log(count);
+    }
+</script>
