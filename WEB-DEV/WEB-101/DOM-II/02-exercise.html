@@ -1,0 +1,42 @@
+<!-- create asisgnment pending or completed task -->
+<!-- create two buttons, if assignment is not completed then click on pending button and h1 bg colour change with red and if completed then change with green -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Assignment Status:</h1>
+
+    <h3 id="ans"></h3>
+
+    <br>
+    <button onclick="pending()">Mark as Pending</button>
+
+    <button onclick="completed()">Mark as Completed</button>
+</body>
+</html>
+
+
+<script>
+
+    function pending(){
+        // console.log("check!");
+        let result = document.getElementById("ans").innerText = "Assignment Pending 😢";
+
+        document.getElementById("ans").style.color="red";
+        document.getElementById("ans").style.backgroundColor="lightblue";
+    }
+
+    function completed(){
+        // console.log("check!");
+        let result = document.getElementById("ans").innerText = "Assignment Completed 😊";
+
+        document.getElementById("ans").style.color="green";
+        document.getElementById("ans").style.backgroundColor="lightblue";
+        
+    }
+</script>
