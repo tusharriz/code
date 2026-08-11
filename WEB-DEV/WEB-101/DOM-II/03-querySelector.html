@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <!-- querySelector: querySelector is for selecting the elements -->
+
+    <h1 id="h1" class="heading1">Hello World</h1>
+</body>
+</html>
+
+<script>
+    // we style h1 tag with the help of querySelector:
+
+    //what previously we do
+    // document.getElementById("h1").style.color="red";
+
+    // now we can select the h1 tag in two more ways
+    // with the help of ID
+    document.querySelector("#h1").style.color="green";
+
+    // with the help of class
+    document.querySelector(".heading1").style.color="blue";
+
+    // with the help of tag
+    document.querySelector("h1").style.color="red";
+
+    
+</script>
